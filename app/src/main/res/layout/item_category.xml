@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/White"
+    android:layout_height="@dimen/_110sdp">
+
+    <RelativeLayout
+
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="@dimen/_3sdp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeItem"
+                android:background="@color/White"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/relaBgr"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/lightBlack"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:id="@+id/imgItemCategory"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="match_parent" />
+
+<!--                    <ImageView-->
+<!--                        android:padding="@dimen/_1sdp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:src="@drawable/button_play"-->
+<!--                        android:layout_width="@dimen/_24sdp"-->
+<!--                        android:layout_height="@dimen/_24sdp"-->
+<!--                        android:background="@drawable/play_round"/>-->
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvNameItem"
+                    android:textColor="@color/Black"
+                    android:layout_toRightOf="@+id/relaBgr"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="normal"
+                    android:maxLines="2"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingRight="@dimen/_3sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlHotMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHotMovie"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/btStart"-->
+<!--                android:layout_width="19dp"-->
+<!--                android:layout_height="19dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="@dimen/_25sdp"-->
+<!--                android:background="@drawable/play_round"-->
+<!--                android:src="@drawable/button_play" />-->
+
+            <TextView
+                android:id="@+id/tvNameVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHotMovie"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/tvTimeCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNameVideo"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/_10sdp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

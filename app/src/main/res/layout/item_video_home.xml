@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="match_parent"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlHometMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHomeMovie"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp" />
+
+            <TextView
+                android:id="@+id/tvNameHomeVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHomeMovie"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/tvHomeTimeCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNameHomeVideo"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/_8sdp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

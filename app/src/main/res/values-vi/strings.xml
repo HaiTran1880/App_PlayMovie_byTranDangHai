@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="title_categories">Thể Loại</string>
+    <string name="title_home">Trang Chủ</string>
+    <string name="title_load">Xin chờ!</string>
+    <string name="title_user">Cá Nhân</string>
+    <string name="title_hot_movie">Phim Hot</string>
+    <string name="next_video">Tiếp theo</string>
+    <string name="auto_play">Tự động phát</string>
+    <string name="home_hot_movie">Phim Hot</string>
+    <string name="home_new_movie">Phim Mới</string>
+    <string name="button_refresh">Xóa tất cả</string>
+    <string name="result">Kết quả</string>
+    <string name="resultSearch">Không có nội dung liên quan!</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:state_enabled">@color/colorPrimary</item>
+        <item name="android:state_checked">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/lightBlack</item>
+    </style>
+</resources>
